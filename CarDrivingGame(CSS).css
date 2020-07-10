@@ -1,0 +1,55 @@
+#nameMarquee{
+    font-weight: bold;
+    font-size: 30px;
+    color: #398987;
+}
+
+#screenTitle{
+    font-family: Algerian, serif;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    color: #0002A9;
+}
+
+#levelTitle{
+    font-size: 35px;
+    font-weight: bold;
+    position: absolute;
+    left: 980px;
+    top: 100px;
+}
+
+#startButton{
+    font-size: 30px;
+    background: none;
+    color: #0002a9;
+    border-width: 3px;
+    border-color: #0002a9;
+    text-align: center;
+    padding: 14px 50px;
+}
+#startButton:hover{
+    transition: 0.4s;
+    box-shadow: 8px 12px 16px 0 rgba(0, 0, 0, 0.34);
+}
+
+#stopButton{
+    font-size: 30px;
+    background: none;
+    color: #0002a9;
+    border-width: 3px;
+    border-color: #0002a9;
+    text-align: center;
+    padding: 14px 50px;
+}
+#stopButton:hover{
+    transition: 0.4s;
+    box-shadow: 8px 12px 16px 0 rgba(0, 0, 0, 0.34);
+}
+
+.centeringDivision{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
